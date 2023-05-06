@@ -1,0 +1,22 @@
+body{
+    background-color: #F3F2EE;
+}
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(21, 146, 191);
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.links a {
+    margin-right: 30px;
+}

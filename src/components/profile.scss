@@ -1,0 +1,42 @@
+div.profile{
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    .background{
+        height: 250px;
+        width: 100%;
+        background-position: center;
+    }
+    .profile-logo{
+        width: 150px;
+        height: 150px;
+        border-radius: 100%;
+        overflow: hidden;
+        position: relative;
+        top: 55%;
+        left: 2%;
+        border: 4px solid white;
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .grid{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto 200px;
+        padding: 20px 40px 40px 40px;
+        .about{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .first-column{
+            .talks{
+                color: grey;
+                font-size: 16px;
+            }
+        }
+    }
+}
